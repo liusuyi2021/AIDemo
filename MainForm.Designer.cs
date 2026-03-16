@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             AntdUI.Tabs.StyleLine styleLine1 = new AntdUI.Tabs.StyleLine();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             pageHeader1 = new AntdUI.PageHeader();
             btn_setting = new AntdUI.Button();
             tabs1 = new AntdUI.Tabs();
@@ -39,9 +40,11 @@
             // 
             pageHeader1.Controls.Add(btn_setting);
             pageHeader1.Dock = DockStyle.Top;
+            pageHeader1.Icon = Properties.Resources.favicon;
             pageHeader1.Location = new Point(0, 0);
             pageHeader1.Name = "pageHeader1";
             pageHeader1.ShowButton = true;
+            pageHeader1.ShowIcon = true;
             pageHeader1.Size = new Size(1024, 23);
             pageHeader1.TabIndex = 1;
             pageHeader1.Text = "AIDemo";
@@ -79,6 +82,7 @@
             ClientSize = new Size(1024, 768);
             Controls.Add(tabs1);
             Controls.Add(pageHeader1);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "MainForm";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "AIDemo";

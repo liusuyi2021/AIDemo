@@ -42,7 +42,8 @@
               "RelativeToolTip": "Setting.cs",
               "ViewState": "AgIAACwAAAAAAAAAAAAAADkAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-16T04:49:51.123Z"
+              "WhenOpened": "2026-03-16T04:49:51.123Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -50,8 +51,8 @@
               "Title": "MainForm.cs",
               "DocumentMoniker": "J:\\lsy\\c#\\AIDemo\\MainForm.cs",
               "RelativeDocumentMoniker": "MainForm.cs",
-              "ToolTip": "J:\\lsy\\c#\\AIDemo\\MainForm.cs",
-              "RelativeToolTip": "MainForm.cs",
+              "ToolTip": "J:\\lsy\\c#\\AIDemo\\MainForm.cs*",
+              "RelativeToolTip": "MainForm.cs*",
               "ViewState": "AgIAAAgAAAAAAAAAAAAUwBoAAABYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-16T04:40:35.321Z",
@@ -63,8 +64,8 @@
               "Title": "MainForm.cs [\u8BBE\u8BA1]",
               "DocumentMoniker": "J:\\lsy\\c#\\AIDemo\\MainForm.cs",
               "RelativeDocumentMoniker": "MainForm.cs",
-              "ToolTip": "J:\\lsy\\c#\\AIDemo\\MainForm.cs [\u8BBE\u8BA1]",
-              "RelativeToolTip": "MainForm.cs [\u8BBE\u8BA1]",
+              "ToolTip": "J:\\lsy\\c#\\AIDemo\\MainForm.cs [\u8BBE\u8BA1]*",
+              "RelativeToolTip": "MainForm.cs [\u8BBE\u8BA1]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-16T04:40:06.399Z",
               "EditorCaption": " [\u8BBE\u8BA1]"
