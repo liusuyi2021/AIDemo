@@ -1,0 +1,7 @@
+# 忽略所有名为 bin 的目录
+bin/
+
+# 或者更具体地忽略 Debug 和 Release 输出
+[Bb]in/
+[Oo]bj/
+/bin
