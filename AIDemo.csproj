@@ -7,7 +7,182 @@
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
     <ApplicationIcon>favicon.ico</ApplicationIcon>
+    <Platforms>AnyCPU;x86</Platforms>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\124.0.2478.105.manifest" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\augloop_client.dll" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\concrt140.dll" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\copilot_provider_msix\copilot_provider_neutral.msix" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\copilot_provider_msix\package_metadata" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\d3dcompiler_47.dll" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\delegatedWebFeatures.sccd" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\dual_engine_adapter_x64.dll" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\dxcompiler.dll" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\dxil.dll" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\EBWebView\x64\EmbeddedBrowserWebView.dll" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\EBWebView\x86\EmbeddedBrowserWebView.dll" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Edge.dat" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\EdgeWebView.dat" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\edge_feedback\camera_mf_trace.wprp" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\edge_feedback\mf_trace.wprp" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\eventlog_provider.dll" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Extensions\external_extensions.json" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\ffmpeg.dll" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\icudtl.dat" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\learning_tools.dll" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\libEGL.dll" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\libGLESv2.dll" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Locales\af.pak" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Locales\am.pak" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Locales\ar.pak" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Locales\as.pak" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Locales\az.pak" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Locales\bg.pak" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Locales\bn-IN.pak" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Locales\bs.pak" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Locales\ca-Es-VALENCIA.pak" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Locales\ca.pak" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Locales\cs.pak" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Locales\cy.pak" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Locales\da.pak" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Locales\de.pak" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Locales\el.pak" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Locales\en-GB.pak" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Locales\en-US.pak" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Locales\es-419.pak" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Locales\es.pak" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Locales\et.pak" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Locales\eu.pak" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Locales\fa.pak" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Locales\fi.pak" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Locales\fil.pak" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Locales\fr-CA.pak" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Locales\fr.pak" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Locales\ga.pak" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Locales\gd.pak" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Locales\gl.pak" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Locales\gu.pak" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Locales\he.pak" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Locales\hi.pak" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Locales\hr.pak" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Locales\hu.pak" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Locales\id.pak" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Locales\is.pak" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Locales\it.pak" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Locales\ja.pak" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Locales\ka.pak" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Locales\kk.pak" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Locales\km.pak" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Locales\kn.pak" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Locales\ko.pak" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Locales\kok.pak" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Locales\lb.pak" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Locales\lo.pak" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Locales\lt.pak" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Locales\lv.pak" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Locales\mi.pak" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Locales\mk.pak" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Locales\ml.pak" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Locales\mr.pak" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Locales\ms.pak" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Locales\mt.pak" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Locales\nb.pak" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Locales\ne.pak" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Locales\nl.pak" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Locales\nn.pak" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Locales\or.pak" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Locales\pa.pak" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Locales\pl.pak" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Locales\pt-BR.pak" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Locales\pt-PT.pak" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Locales\qu.pak" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Locales\ro.pak" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Locales\ru.pak" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Locales\sk.pak" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Locales\sl.pak" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Locales\sq.pak" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Locales\sr-Cyrl-BA.pak" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Locales\sr-Latn-RS.pak" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Locales\sr.pak" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Locales\sv.pak" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Locales\ta.pak" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Locales\te.pak" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Locales\th.pak" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Locales\tr.pak" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Locales\tt.pak" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Locales\ug.pak" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Locales\uk.pak" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Locales\ur.pak" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Locales\vi.pak" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Locales\zh-CN.pak" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Locales\zh-TW.pak" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\MEIPreload\manifest.json" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\MEIPreload\preloaded_data.pb" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\microsoft_shell_integration.dll" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\mip_core.dll" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\mip_protection_sdk.dll" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\mojo_core.dll" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\msedge.dll" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\msedge.dll.sig" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\msedgewebview2.exe" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\msedgewebview2.exe.sig" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\msedge_100_percent.pak" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\msedge_200_percent.pak" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\msedge_elf.dll" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\msedge_wer.dll" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\mspdf.dll" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\msvcp140.dll" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\msvcp140_codecvt_ids.dll" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Notifications\SoftLandingAssetDark.gif" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Notifications\SoftLandingAssetLight.gif" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\notification_helper.exe" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\oneauth.dll" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\oneds.dll" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\onnxruntime.dll" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\onramp.dll" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\PdfPreview\PdfPreviewHandler.dll" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\prefs_enclave_x64.dll" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\resources.pak" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\show_third_party_software_licenses.bat" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\telclient.dll" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Trust Protection Lists\manifest.json" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Trust Protection Lists\Mu\Advertising" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Trust Protection Lists\Mu\Analytics" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Trust Protection Lists\Mu\CompatExceptions" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Trust Protection Lists\Mu\Content" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Trust Protection Lists\Mu\Cryptomining" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Trust Protection Lists\Mu\Entities" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Trust Protection Lists\Mu\Fingerprinting" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Trust Protection Lists\Mu\LICENSE" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Trust Protection Lists\Mu\Other" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Trust Protection Lists\Mu\Social" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Trust Protection Lists\Mu\TransparentAdvertisers" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Trust Protection Lists\Sigma\Advertising" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Trust Protection Lists\Sigma\Analytics" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Trust Protection Lists\Sigma\Content" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Trust Protection Lists\Sigma\Cryptomining" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Trust Protection Lists\Sigma\Entities" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Trust Protection Lists\Sigma\Fingerprinting" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Trust Protection Lists\Sigma\LICENSE" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Trust Protection Lists\Sigma\Other" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Trust Protection Lists\Sigma\Social" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\Trust Protection Lists\Sigma\Staging" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\v8_context_snapshot.bin" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\vccorlib140.dll" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\vcruntime140.dll" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\vcruntime140_1.dll" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\vk_swiftshader.dll" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\vk_swiftshader_icd.json" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\vulkan-1.dll" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\wdag.dll" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\webview2_integration.dll" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\WidevineCdm\manifest.json" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\WidevineCdm\_platform_specific\win_x64\widevinecdm.dll" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\WidevineCdm\_platform_specific\win_x64\widevinecdm.dll.sig" />
+    <None Remove="C:\Users\ard\.nuget\packages\webview2.runtime.x64\124.0.2478.105\contentFiles\any\any\WebView2\wns_push_client.dll" />
+  </ItemGroup>
 
   <ItemGroup>
     <Content Include="favicon.ico" />
@@ -15,9 +190,8 @@
 
   <ItemGroup>
     <PackageReference Include="AntdUI" Version="2.3.2" />
-    <PackageReference Include="Microsoft.Web.WebView2" Version="1.0.3800.47" />
     <PackageReference Include="System.Data.SQLite.Core" Version="1.0.119" />
-    <PackageReference Include="WebView2.Runtime.X64" Version="146.0.3856.59" />
+    <PackageReference Include="WebView2.Runtime.X64" Version="124.0.2478.105" />
   </ItemGroup>
 
   <ItemGroup>
@@ -37,7 +211,7 @@
 
   <ItemGroup>
     <None Update="database.db">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>
 

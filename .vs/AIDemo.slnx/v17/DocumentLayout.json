@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "J:\\lsy\\c#\\AIDemo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1743A34B-6099-86B8-CBD5-C6EFEDBE6671}|AIDemo.csproj|j:\\lsy\\c#\\aidemo\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{1743A34B-6099-86B8-CBD5-C6EFEDBE6671}|AIDemo.csproj|J:\\lsy\\c#\\AIDemo\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{1743A34B-6099-86B8-CBD5-C6EFEDBE6671}|AIDemo.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1743A34B-6099-86B8-CBD5-C6EFEDBE6671}|AIDemo.csproj|j:\\lsy\\c#\\aidemo\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1743A34B-6099-86B8-CBD5-C6EFEDBE6671}|AIDemo.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1743A34B-6099-86B8-CBD5-C6EFEDBE6671}|AIDemo.csproj|j:\\lsy\\c#\\aidemo\\setting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1743A34B-6099-86B8-CBD5-C6EFEDBE6671}|AIDemo.csproj|solutionrelative:setting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,25 +30,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Setting.cs",
-              "DocumentMoniker": "J:\\lsy\\c#\\AIDemo\\Setting.cs",
-              "RelativeDocumentMoniker": "Setting.cs",
-              "ToolTip": "J:\\lsy\\c#\\AIDemo\\Setting.cs",
-              "RelativeToolTip": "Setting.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAAADkAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-16T04:49:51.123Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "MainForm.cs",
               "DocumentMoniker": "J:\\lsy\\c#\\AIDemo\\MainForm.cs",
               "RelativeDocumentMoniker": "MainForm.cs",
               "ToolTip": "J:\\lsy\\c#\\AIDemo\\MainForm.cs",
               "RelativeToolTip": "MainForm.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAUwBoAAABYAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJ0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-16T04:40:35.321Z",
               "EditorCaption": ""

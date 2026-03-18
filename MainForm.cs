@@ -19,7 +19,14 @@ namespace AIDemo
 
         private async void MainForm_Load(object sender, EventArgs e)
         {
-            await ReloadTabs();
+            try
+            {
+                await ReloadTabs();
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show("异常："+ex.Message);
+            }
             //// 初始化默认 Tabs
             //await AddTab(new TabConfig { Title = "ChatGPT", Url = "https://chat.openai.com" });
             //await AddTab(new TabConfig { Title = "豆包", Url = "https://www.doubao.com/" });
